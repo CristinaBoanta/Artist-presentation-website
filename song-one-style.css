@@ -1,0 +1,83 @@
+    * {
+      font-family: 'Merienda One', cursive;
+    }
+
+    #background-img-5 {
+      background-image: url("Photos/bground-1.jpg");
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .div-display {
+      display: flex;
+      justify-content: center;
+      margin-top: 5%;
+    }
+
+    .title-1 {
+      color: rgb(255, 255, 255);
+      word-break: keep-all;
+    }
+
+    .h1-style-1 {
+      margin: auto;
+      margin-bottom: 10vh;
+      margin-top: 10vh;
+      color: white;
+      letter-spacing: .4rem;
+      font-family: 'Dark Twenty Regular';
+      font-size: 9vh;
+      border-style: solid;
+      border-image: linear-gradient(rgb(255, 255, 255), transparent) 1;
+      border-bottom: 0;
+      max-width: 20%;
+      padding-top: 3vh;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+
+    .lyrics {
+      column-rule-color: gray;
+      column-rule-style: inset;
+      column-rule-width: 4px;
+      columns: 2;
+      text-align: center;
+      padding-bottom: 8vh;
+      padding-top: 8vh;
+    }
+
+    .additional-info {
+      text-align: center;
+      margin-top: 3%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #00000098;
+      width: 35%;
+    }
+
+    .info-links {
+      color: #f88020;
+      font-size: 3vh;
+    }
+
+    .filler-div {
+      height: 7vh;
+      background-color: transparent;
+    }
+
+    .lyrics-span {
+      color: #f88020;
+      font-size: 3vh;
+    }
+
+    .section-bground {
+      background-image: url("Photos/woods.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .lyrics-color {
+      color: rgb(255, 255, 255);
+    }

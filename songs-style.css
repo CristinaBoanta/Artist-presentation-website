@@ -1,0 +1,62 @@
+
+    * {
+      font-family: 'Merienda One', cursive;
+    }
+
+    #background-img {
+      background-color: black;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  .new-releases{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
+  }
+
+  h5{
+    color: white;
+    padding-bottom: 8vh;
+    padding-top:4vh;
+  }
+
+  .transform{
+    transition: transform .2s;
+  }
+
+  .transform:hover {
+    transform: scale(1.1);
+  }
+
+  .paragraph-1{
+    font-size: 2.3vh;
+    text-indent: 50px;
+    margin-bottom: 10vh;
+    line-height: 2.3;
+  }
+
+  .h1-outline{
+    padding: 2vh;
+    font-family: 'Dark Twenty Regular';
+    font-size: 9vh;
+    border-style:solid;
+    border-image:linear-gradient(rgb(255, 255, 255), transparent) 1;
+    border-bottom:0;
+    max-width: 45%;
+    white-space: nowrap;
+    padding-top: 3vh;
+    color: rgb(255, 255, 255);
+
+    /* outline: 3px inset white;
+    background: -webkit-linear-gradient(top, rgba(70, 68, 68, 0), rgb(112, 107, 107)); */
+  }
+
+  .alignment{
+      display: flex;
+      justify-content: center;
+      margin-top: 8%;
+  }

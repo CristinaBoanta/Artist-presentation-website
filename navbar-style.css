@@ -1,0 +1,43 @@
+
+.padding-top{
+    padding-top: 3vh;
+}
+
+nav ul li{
+    width: 17vh;
+    text-align: center;
+}
+
+nav ul li a{
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: #f88020 !important;
+}
+
+
+nav a{
+    color: rgb(255, 255, 255) !important;
+}
+
+.hidden-div{
+    display: none;
+    padding-top:3vh;
+}
+
+.hidden-div li a{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.btn-color{
+    background-color: #f88020;
+}
+
+.btn-color:hover{
+    color: rgb(255, 255, 255);
+}
+
+.toggler-color{
+    background-color: rgba(204, 204, 204, 0.376);
+  }

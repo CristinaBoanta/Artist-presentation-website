@@ -1,0 +1,36 @@
+    * {
+      font-family: 'Merienda One', cursive;
+    }
+
+    #background-img-2 {
+      background-image: url("Photos/background.jpeg");
+      height: 100%;
+    }
+
+    .my-color {
+      color: rgb(255, 255, 255);
+    }
+
+    .related {
+      color: rgb(255, 255, 255);
+    }
+
+    .lineheight {
+      line-height: 2;
+    }
+
+    .span-size {
+      font-size: 3vh;
+    }
+
+
+    .my-outline {
+      font-family: 'Dark Twenty Regular';
+      border-style: solid;
+      border-image: linear-gradient(rgb(255, 255, 255), transparent) 1;
+      border-bottom: 0;
+      max-width: 66%;
+      padding-top: 3vh;
+      white-space: nowrap;
+      text-align: center;
+    }

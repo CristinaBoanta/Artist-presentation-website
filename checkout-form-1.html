@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="footer-style.css">
+  <link rel="stylesheet" href="navbar-style.css">
+  <link rel="stylesheet" href="checkout-form-style.css">
+  <link rel="stylesheet" type="text/css" href="font-style.css" />
+</head>
+
+<body>
+  <section id="background-img-3">
+    <div class="container-fluid padding-top">
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <div>
+          <a class="navbar-brand" href="index1.html"><img src="Photos/my-logo.png" width="220px"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleMenu()">
+            <span class="navbar-toggler-icon toggler-color">
+            </span>
+
+            <div class="hidden-div" id="myLinks">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index1.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="songs.html">Songs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="store.html">Store</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="2021-tour.html">2021 Tour</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+              </ul>
+            </div>
+          </button>
+        </div>
+
+        <div class="mx-auto d-flex">
+
+
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index1.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="songs.html">Songs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="store.html">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="2021-tour.html">2021 Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <button class="btn btn-color" type="button" id="spotifyBtn">Listen on Spotify</button>
+        </div>
+
+      </nav>
+    </div>
+
+
+    <div class="container my-title">
+      <h1 style="font-family: 'Dark Twenty Regular'; font-size: 8vh;">Checkout</h1>
+    </div>
+
+    <div class="row-centering my-margin-1">
+      <!--For Row containing all card-->
+      <div class="row container" style="width:100vh">
+        <!--Card 1-->
+        <div class="col-sm-8">
+          <div class="card card-cascade">
+            <!--Card image-->
+            <div class="view view-cascade overlay text-center"> <img class="card-img-top"
+                src="Photos/checkout-img-1.jpg" alt="vinyl"> <a>
+                <div class="mask rgba-white-slight"></div>
+              </a> </div>
+            <!--Product Description-->
+            <div class="desc">
+              <!-- 1st Row for title-->
+              <div class="row subRow">
+                <!--Column for Data-->
+                <div class="col">
+                  <p class="text-muted row1">Release date</p>
+                  <p class="row2">03/04/2021</p>
+                </div>
+                <!--Column for Data-->
+                <div class="col">
+                  <p class="text-muted row1">Format</p>
+                  <p class="row2">Vinyl</p>
+                </div>
+                <!--Column for Data-->
+                <div class="col">
+                  <p class="text-muted row1">Number of tracks</p>
+                  <p class="row2">6</p>
+                </div>
+              </div> <!-- 2nd Row for title-->
+              <div class="row subRow">
+                <!--Column for Data-->
+                <div class="col">
+                  <p class="text-muted row1">Genre</p>
+                  <p class="row2">Alternative</p>
+                </div>
+                <!--Column for Data-->
+                <div class="col">
+                  <p class="text-muted row1">Color</p>
+                  <p class="row2">Black</p>
+                </div>
+                <!--Column for Data-->
+                <div class="col">
+                  <p class="text-muted row1">Type</p>
+                  <p class="row2">EP</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Card 2-->
+        <div class="col-sm-4">
+          <div class="card card-cascade card-ecommerce wider shadow p-3 mb-5 ">
+            <!--Card Body-->
+            <div class="card-body card-body-cascade">
+              <!--Card Description-->
+              <div class="card2decs">
+                <p class="heading1"><strong>Visions EP 12" Vinyl • 2021</strong></p>
+                <p class="subtotal">Subtotal<span class="float-right text1">$50</span></p>
+                <p class="shipping">Shipping<span class="float-right text1">Free</span></p>
+                <!-- <p class="promocode">Promo Code<span class="float-right text1">-$100</span></p> -->
+                <p class="total"><strong>Total</strong><span class="float-right totalText1">$<span
+                      class="totalText2">50</span></span></p>
+              </div>
+              <div class="payment">
+
+                <div style="display: flex; flex-direction: column;">
+                  <form class="checkout-data"
+                    onsubmit="alert('Purchase successful! Check your inbox for the receipt.')">
+                    <div class="col">
+                      <label for="cc-name">Name on card</label>
+                      <input type="text" class="form-control" id="cc-name" placeholder="Full name" required>
+                      <small class="text-muted">Full name as displayed on card</small>
+                      <!-- <div class="invalid-feedback">
+                        Name on card is required
+                      </div> -->
+                    </div>
+
+                    <div class="col">
+                      <label for="cc-mail">Your Email</label>
+                      <input type="email" class="form-control" id="cc-mail" placeholder="Your email address" required>
+                    </div>
+
+                    <div class="col">
+                      <label for="cc-number">Credit card number</label>
+                      <input type="text" class="form-control" id="cc-number" placeholder="Number on credit card"
+                        required>
+                      <!-- <div class="invalid-feedback">
+                        Credit card number is required
+                      </div> -->
+                    </div>
+                </div>
+                <div class="row">
+                  <div style="margin-left: 3vh;">
+                    <label for="start">Expiration date:</label>
+                    <input type="month" id="start" name="start" min="2021-10" class="form-control" required>
+                    <!-- <div class="invalid-feedback">
+                        Expiration date required
+                      </div> -->
+                  </div>
+
+                  <div style="margin-left: 3.5vh;">
+                    <label for="cc-expiration">CVV</label>
+                    <input type="text" class="form-control" id="cc-cvv" placeholder="" style="width: 30%;" maxlength="3"
+                      required>
+                    <!-- <div class="invalid-feedback">
+                        Security code required
+                      </div> -->
+                  </div>
+                </div>
+                <hr class="mb-4">
+
+                <button type="submit" class="purchaseLink btn btn-outline-dark mt-auto my-purchase">
+                  PURCHASE &nbsp; &nbsp; &#8594;
+                </button>
+
+                </form>
+
+              </div>
+              <!--/.Card-->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="footer-32892 pb-0">
+      <div class="site-section">
+        <div class="container">
+
+
+          <div class="row">
+
+            <div class="col-md pr-md-5 mb-4 mb-md-0">
+              <h3>Press</h3>
+              <p class="mb-4">For media inquiries, please contact the band's management by phone or email with the info
+                provided below. You can also send a message using the form on our
+                <a href="about.html">about</a> page.
+              </p>
+              <ul class="list-unstyled quick-info mb-4">
+                <li><a href="tel:12913912329" class="d-flex align-items-center"><span><img
+                        src="Photos/Icons/telephone.png" height="25px"></span> &nbsp; +1 291 3912 329</a></li>
+                <li><a href="mailto:exemplu@test.ro" class="d-flex align-items-center"><span><img
+                        src="Photos/Icons/envelope.png" height="25px"></span> &nbsp; info@gmail.com</a></li>
+              </ul>
+              <h5 class="nws-color" id="scroll-down">Subscribe to the newsletter</h5>
+              <form action="#" class="subscribe" onsubmit="alert('You have subscribed successfully.')">
+                <input type="email" class="form-control" placeholder="Enter your e-mail" required>
+                <input type="submit" class="btn btn-submit" value="Send">
+              </form>
+            </div>
+            <div class="col-md mb-4 mb-md-0">
+              <h3>Latest Tweet</h3>
+              <ul class="list-unstyled tweets">
+                <li class="d-flex">
+                  <div class="mr-4"><span><img src="Photos/Icons/twitter-icon.png" height="25px"></span></div>
+                  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere unde omnis veniam porro
+                    excepturi.</div>
+                </li>
+                <li class="d-flex">
+                  <div class="mr-4"><span><img src="Photos/Icons/twitter-icon.png" height="25px"></span></div>
+                  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere unde omnis veniam porro
+                    excepturi.</div>
+                </li>
+                <li class="d-flex">
+                  <div class="mr-4"><span><img src="Photos/Icons/twitter-icon.png" height="25px"></span></div>
+                  <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere unde omnis veniam porro
+                    excepturi.</div>
+                </li>
+              </ul>
+            </div>
+
+
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h3>Instagram</h3>
+              <div class="row gallery">
+                <div class="col-6">
+                  <a href="#"><img src="Photos/img-1.jpg" alt="Image" class="img-fluid img-sizing"></a>
+                  <a href="#"><img src="Photos/img-2.jpg" alt="Image" class="img-fluid img-sizing"></a>
+                </div>
+                <div class="col-6">
+                  <a href="#"><img src="Photos/img-3.jpg" alt="Image" class="img-fluid img-sizing"></a>
+                  <a href="#"><img src="Photos/img-4.jpg" alt="Image" class="img-fluid img-sizing"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="py-5 footer-menu-wrap d-md-flex align-items-center">
+                <p>Website created by <span>Cristina B.</span> &copy; 2021</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <script src="navbar-js.js"></script>
+
+  <script type="text/javascript">
+    document.getElementById("spotifyBtn").onclick = function () {
+      location.href = "https://www.spotify.com/";
+    };
+  </script>
+
+</body>
+
+</html>

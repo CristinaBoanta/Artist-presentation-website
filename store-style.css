@@ -1,0 +1,19 @@
+* {
+    font-family: 'Merienda One', cursive;
+    scroll-behavior: smooth;
+}
+
+#background-img-1 {
+    background-image: url("Photos/store-1.jpg");
+    height: 100%;
+}
+
+.my-header{
+    margin-top:5%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    line-height: 2.5;
+}
+
+.my-store-btn{
+    background-color: #f88020 !important;
+}

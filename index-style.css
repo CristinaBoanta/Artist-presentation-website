@@ -1,0 +1,43 @@
+    * {
+      font-family: 'Merienda One', cursive;
+    }
+
+    section {
+      text-align: center;
+    }
+
+    #background-img {
+      background-image: url("Photos/background.jpeg");
+      height: 100%;
+    }
+
+    .img-size {
+      max-width: 50%;
+      height: auto;
+    }
+
+    .centered {
+      margin-top: 7%;
+    }
+
+    .h1-style {
+      padding: 2vh;
+      margin: auto;
+      margin-bottom: 10vh;
+      width: 45%;
+      color: white;
+      letter-spacing: .4rem;
+      font-family: 'Dark Twenty Regular';
+      font-size: 9vh;
+      border-style: solid;
+      border-image: linear-gradient(rgb(255, 255, 255), transparent) 1;
+      border-bottom: 0;
+      max-width: 45%;
+      padding-top: 3vh;
+    }
+
+    .mybtn {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      padding: 2vh;
+    }
